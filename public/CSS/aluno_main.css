@@ -24,20 +24,20 @@ form {
     flex-direction: column;
 }
 
-.perfil{
+.perfil {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.foto_perfil{
+.foto_perfil {
     height: 100px;
     width: 25%;
     border-radius: 50%;
 }
 
-#flImage{
+#flImage {
     display: none;
 }
 
