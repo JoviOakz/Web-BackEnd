@@ -31,6 +31,10 @@ section {
     flex-direction: column;
 }
 
+img{
+    border-radius: 50%;
+}
+
 .border_style {
     border-radius: 5px;
     padding: 5px;

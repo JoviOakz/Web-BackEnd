@@ -18,13 +18,13 @@
     <header>
         <nav class="navbar bg-body-tertiary shadow">
             <div class="container-fluid">
-                <span class="navbar-brand"><a class="rainbow_text" href="../../index.html">CONTROLE</a> de Estudantes
+                <span class="navbar-brand"><a class="rainbow_text" href="/">CONTROLE</a> de Estudantes
                     |</span>
                 <ul>
                     <li>
                         <span class="navbar-brand adjust_1" id="decrease"><b>Cadastrar:</b></span>
-                        <a class="navbar-brand adjust_1 after" id="decrease" href="./aluno.html">Aluno</a>
-                        <a class="navbar-brand adjust_1" id="decrease" href="./sala.html">Sala</a>
+                        <a class="navbar-brand adjust_1 after" id="decrease" href="/Aluno">Aluno</a>
+                        <a class="navbar-brand adjust_1" id="decrease" href="/Sala">Sala</a>
                     </li>
                 </ul>
             </div>
@@ -34,18 +34,18 @@
     <main>
         <article>
             <section>
-                <form class="row g-3 needs-validation" novalidate>
+                <form action="/Sala" method="post" class="row g-3 needs-validation" novalidate>
                     <h2>Cadastrar uma nova sala</h2>
                     <div class="col-md-4">
                         <label for="validationCustom01" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <input type="text" class="form-control" name="nome" required>
                     </div>
                     <div class="col-md-4">
                         <label for="validationCustom02" class="form-label">Capacidade</label>
-                        <input type="number" class="form-control" id="validationCustom02" required>
+                        <input type="number" class="form-control" name="capacidade" required>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary space" type="submit"><b>Cadastrar</b></button>
+                        <button class="btn btn-primary space" type="post"><b>Cadastrar</b></button>
                     </div>
                 </form>
             </section>
